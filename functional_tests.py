@@ -1,5 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from contextlib import contextmanager
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support.expected_conditions import staleness_of
 import unittest
 
 class NewVisitorTest(unittest.TestCase):
@@ -11,10 +14,17 @@ class NewVisitorTest(unittest.TestCase):
         #self.browser.quit()
         self.browser.close()
 
+    @contextmanager
+    def wait_for_page_load(self, timeout=30):
+        old_page = self.browser.find_element_by_tag_name("html")
+        yield WebDriverWait(self.browser, timeout).until(
+            staleness_of(old_page)
+        )
+
     def check_for_row_in_list_table(self, row_text):
         table = self.browser.find_element_by_id('id_list_table')
-        rows = table.find_elements_by_name('tr')
-        self.assertIn(row_text, [row.text for row in rows]
+        rows = table.find_elements_by_tag_name('tr')
+        self.assertIn(row_text, [row.text for row in rows])
 
     def test_can_start_a_list_and_retrieve_it_later(self):
         self.browser.get('http://localhost:8000')
@@ -42,13 +52,14 @@ class NewVisitorTest(unittest.TestCase):
         ##)
 
         #self.assertIn('1: Buy peacock feathers', [row.text for row in rows])
-        self.check_for_row_in_list_table('1: Buy peacock feathers')
+        with self.wait_for_page_load(timeout=10):
+            self.check_for_row_in_list_table('1: Buy peacock feathers')
         
         # 页面中又显示了一个文本框，可以输入其他的代办事项
         # 她输入了"Use peacock feathers to make a fly"
         # 伊迪斯做事很有条理
         inputbox = self.browser.find_element_by_id('id_new_item')
-        inputbox.send_keys('Use peacok feathers to make a fly')
+        inputbox.send_keys('Use peacock feathers to make a fly')
         inputbox.send_keys(Keys.ENTER)
 
         # 页面再次刷新，清单中显示了两个待办事项
@@ -59,8 +70,8 @@ class NewVisitorTest(unittest.TestCase):
         #    '2: Use peacock feathers to make a fly' ,
         #    [row.text for row in rows]
         #)
-        self.check_for_row_in_list_table('1: Buy peacock feathers')
-        self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
+        with self.wait_for_page_load(timeout=10):
+            self.check_for_row_in_list_table('2: Use peacock feathers to make a fly')
 
         ####
         self.fail('Finish the test!')
