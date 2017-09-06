@@ -53,3 +53,26 @@ Xlib:  extension "RANDR" missing on display "localhost:12.0".
 Xlib:  extension "RANDR" missing on display "localhost:12.0".
 [Child 10535] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
 [Child 10535] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1504671021593	geckodriver	INFO	geckodriver 0.18.0
+1504671021610	geckodriver	INFO	Listening on 127.0.0.1:44467
+1504671025931	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server localhost:10.0.
+1504671094313	geckodriver	INFO	geckodriver 0.18.0
+1504671094319	geckodriver	INFO	Listening on 127.0.0.1:34898
+1504671095558	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504671099359	Marionette	INFO	Listening on port 44374
+1504671099814	Marionette	WARN	TLS certificate errors will be ignored for this session
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+[Child 11501] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 11501] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1504671223124	geckodriver	INFO	geckodriver 0.18.0
+1504671223146	geckodriver	INFO	Listening on 127.0.0.1:46330
+1504671226983	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504671233663	Marionette	INFO	Listening on port 36901
+1504671233999	Marionette	WARN	TLS certificate errors will be ignored for this session
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+[Child 11635] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 11635] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
