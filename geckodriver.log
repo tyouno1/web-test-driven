@@ -1,0 +1,10 @@
+1504677278398	geckodriver	INFO	geckodriver 0.18.0
+1504677278403	geckodriver	INFO	Listening on 127.0.0.1:50557
+1504677284117	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504677293145	Marionette	INFO	Listening on port 55777
+1504677293525	Marionette	WARN	TLS certificate errors will be ignored for this session
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+JavaScript error: resource://gre/modules/XPCOMUtils.jsm, line 230: TypeError: Cc[aContract] is undefined
+[Child 12064] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 12064] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
