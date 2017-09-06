@@ -1,0 +1,55 @@
+1504654170439	geckodriver	INFO	geckodriver 0.18.0
+1504654170448	geckodriver	INFO	Listening on 127.0.0.1:53644
+1504654174834	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504654179952	Marionette	INFO	Listening on port 48544
+1504654180269	Marionette	WARN	TLS certificate errors will be ignored for this session
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504654261930	geckodriver	INFO	geckodriver 0.18.0
+1504654261935	geckodriver	INFO	Listening on 127.0.0.1:48528
+1504654264749	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504654267851	Marionette	INFO	Listening on port 42247
+1504654268110	Marionette	WARN	TLS certificate errors will be ignored for this session
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504654390326	geckodriver	INFO	geckodriver 0.18.0
+1504654390332	geckodriver	INFO	Listening on 127.0.0.1:54981
+1504654394198	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504654398077	Marionette	INFO	Listening on port 52861
+1504654398360	Marionette	WARN	TLS certificate errors will be ignored for this session
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504654696976	geckodriver	INFO	geckodriver 0.18.0
+1504654696986	geckodriver	INFO	Listening on 127.0.0.1:57442
+1504654699895	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504654706566	Marionette	INFO	Listening on port 55206
+1504654707059	Marionette	WARN	TLS certificate errors will be ignored for this session
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504654888209	geckodriver	INFO	geckodriver 0.18.0
+1504654888272	geckodriver	INFO	Listening on 127.0.0.1:43679
+1504654892958	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+1504654901013	Marionette	INFO	Listening on port 48802
+1504654901312	Marionette	WARN	TLS certificate errors will be ignored for this session
+Xlib:  extension "RANDR" missing on display "localhost:10.0".
+[Child 10275] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 10275] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1504655035184	geckodriver	INFO	geckodriver 0.18.0
+1504655035193	geckodriver	INFO	Listening on 127.0.0.1:34771
+1504655038781	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display "localhost:12.0".
+1504655042233	Marionette	INFO	Listening on port 35576
+1504655042529	Marionette	WARN	TLS certificate errors will be ignored for this session
+Xlib:  extension "RANDR" missing on display "localhost:12.0".
+[Child 10410] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 10410] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
+1504655219221	geckodriver	INFO	geckodriver 0.18.0
+1504655219269	geckodriver	INFO	Listening on 127.0.0.1:47371
+1504655223703	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+Xlib:  extension "RANDR" missing on display "localhost:12.0".
+1504655232171	Marionette	INFO	Listening on port 45985
+1504655232602	Marionette	WARN	TLS certificate errors will be ignored for this session
+Xlib:  extension "RANDR" missing on display "localhost:12.0".
+[Child 10535] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
+[Child 10535] ###!!! ABORT: Aborting on channel error.: file /builddir/build/BUILD/firefox-52.3.0/firefox-52.3.0esr/ipc/glue/MessageChannel.cpp, line 2152
